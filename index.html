@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<title>Payment Details</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="box">
+    <h2>Payment Check</h2>
+
+    <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="নাম বা মোবাইল নাম্বার লিখুন"
+        onkeydown="handleEnter(event)"
+    >
+
+    <br><br>
+
+    <button onclick="checkPayment()">Search</button>
+
+    <div id="result"></div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
